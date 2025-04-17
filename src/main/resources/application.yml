@@ -10,7 +10,7 @@ spring:
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
   datasource:
-    url: jdbc:sqlserver://10.105.0.188:1433;databaseName=APOLLO
+    url: jdbc:sqlserver://apollo.intercars.local:1433;databaseName=TrackIT;encrypt=true;trustServerCertificate=true;
     username: cdcservic3
     password: 8j4x8kXv4NNBWVw
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
