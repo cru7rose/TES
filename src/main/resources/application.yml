@@ -2,7 +2,7 @@ spring:
   application:
     name: TES
   kafka:
-    bootstrap-servers: 172.19.0.3:9092
+    bootstrap-servers: kafka:9092
     consumer:
       group-id: tes-consumer-group
       auto-offset-reset: earliest
