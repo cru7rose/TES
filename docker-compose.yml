@@ -11,7 +11,7 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:sqlserver://apollo.intercars.local:1433;databaseName=TrackIT;encrypt=true;trustServerCertificate=true;
       - SPRING_DATASOURCE_USERNAME=cdcservic3
       - SPRING_DATASOURCE_PASSWORD=8j4x8kXv4NNBWVw
-      - SPRING_KAFKA_BOOTSTRAP_SERVERS=10.105.0.188:9092
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=172.19.0.3:9092
     networks:
       - kafka-oms_network
 
